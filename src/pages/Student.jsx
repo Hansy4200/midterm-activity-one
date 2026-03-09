@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import StudentList from '../components/StudentList';
-function Students() {
-const [students, setStudents] = useState([]);
+function Student() {
+const [students, setStudent] = useState([]);
 const studentData = [
 { id: 1, name: "Maria Santos", course: "BSIT" },
 { id: 2, name: "Juan dela Cruz", course: "BSCS" },
@@ -15,7 +15,7 @@ const studentData = [
 { id: 10, name: "Rafael Aquino", course: "BSCS" },
 ];
 useEffect(() => {
-setStudents(studentData);
+setStudent(studentData);
 }, []);
 return (
 <div>
@@ -38,4 +38,4 @@ return (
 </div>
 );
 }
-export default Students
+export default Student;
