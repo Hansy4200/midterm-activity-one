@@ -1,5 +1,6 @@
+import React from 'react';
 import { Link } from 'react-router';
- 
+
 function Navigation() {
 return (
 <nav>
@@ -9,5 +10,4 @@ return (
 </nav>
 );
 }
- 
 export default Navigation;
