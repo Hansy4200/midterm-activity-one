@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import StudentList from '../components/StudentList';
 function Student() {
 const [student, setStudent] = useState([]);
+=======
+import { useEffect } from 'react';
+function Students() {
+const [students, setStudents] = useState([]);
+>>>>>>> 96288990f00b693b245b8f3a03ae92206062066f
 const studentData = [
 { id: 1, name: "Maria Santos", course: "BSIT" },
 { id: 2, name: "Juan dela Cruz", course: "BSCS" },
@@ -38,4 +44,8 @@ return (
 </div>
 );
 }
+<<<<<<< HEAD
 export default Student;
+=======
+export default Students;
+>>>>>>> 96288990f00b693b245b8f3a03ae92206062066f
