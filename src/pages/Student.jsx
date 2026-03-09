@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import StudentList from '../components/StudentList';
 function Student() {
-const [students, setStudent] = useState([]);
+const [student, setStudent] = useState([]);
 const studentData = [
 { id: 1, name: "Maria Santos", course: "BSIT" },
 { id: 2, name: "Juan dela Cruz", course: "BSCS" },
